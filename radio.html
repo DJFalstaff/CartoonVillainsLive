@@ -3,17 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>radio - Music Artist Portfolio Web Template</title>
+        <title>Radio - CartoonVillains.Live</title>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
-        
-       <!--favicon-img--> 
-       <link rel="icon" type="image/png" href="images/favicon.jpg">
-       <!--favicon-img-->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
     
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/messages.css">
+        <link rel="stylesheet" href="css/history.css">
     
     </head>
 <body>
@@ -27,9 +28,9 @@
 
         <div id="preloader">
             <div class="p">
-                <img src="images/headphone.png" alt="headphone">
+                <img src="images/headphone.webp" alt="headphone">
+                <div class="p">Cartoon Villains</div>
             </div>
-            <div class="p">Use Headphone For Better Experience.</div>
         </div>
 
 <!-- CONTENT -->
@@ -40,7 +41,7 @@
    <!-- NAVIGATION -->
    <div class="navigation">
     <div class="logo hover ">
-       <a href="index-two.html" class="text">ARLO BROWN</a>
+            <a href="index.html" class="text">Cartoon Villains</a>
     </div>
     <div class="menu-bar hover ">
         <div class="menu-bar-name text">
@@ -62,7 +63,7 @@
 <!-- HEADING -->
 <div class="heading">
     <div class="text">
-      SONGS
+      Radio
     </div>
 </div>
 
@@ -76,22 +77,21 @@
 
 <div class="center">
  <div style="width: 82%;">
-    <div id="RTWidgetListenerMessages"></div>
-    <div style="width: 100%; margin-top:25px;"  id="sc-player">
+    <div style="width: 100%;margin-bottom: 50px;"  id="sc-player">
         <div
         is="player"
         lang="en" 
         api-url="https://ec3.yesstreaming.net:2730/api/v2"
         server-id="1"
-        station-name="Cartoon Villains Live"
+        station-name="Cartoon Villains"
         station-url="https://cartoonvillains.live/"
         imagecontainer="left"
         imagecontainer-bg="#000000"
         controlscontainer="right"
         controlscontainer-bg="#d6d6d6"
-        controlscontainer-bg-img="https://ec3.yesstreaming.net:2730/media/widgets/bg7.jpg"
+        controlscontainer-bg-img="https://ec3.yesstreaming.net:2730/media/widgets/bg11.png"
         historycontainer="bottom"
-        historycontainer-bg="#cdd8e5"
+        historycontainer-bg="#000000"
         :show-history="true"
         history-limit="5"
         sharecontainer="both"
@@ -103,21 +103,21 @@
         default-dj-img="https://ec3.yesstreaming.net:2730/media/widgets/lilith.png"
         :show-image="true"
         default-cover-image="https://ec3.yesstreaming.net:2730/media/widgets/cvr_logo.png"
-        play-button-color="#35495e"
+        play-button-color="#9932cc"
         play-button-bg="null"
         visualizer-outline-color="#37679a"
         visualizer-bar-width="1"
         channels-switch-bg="#4165b9"
-        channels-switch-color="#ffffff"
+        channels-switch-color="#ec0909"
         channels-switch-bg-active="#dddddd"
         channels-switch-color-active="#000000"
         :show-vote="true"
-        vote-buttons-color="#35495e"
+        vote-buttons-color="#9932cc"
         vote-buttons-opacity="1"
         vote-results-font-color="#FFFFFF"
         vote-results-font-size="16"
         :progress-show="true"
-        progress-bar-color="#35495e"
+        progress-bar-color="#9932cc"
         progress-bar-bg-color="#41b883"
         progress-bar-bg-opacity="0.1"
         progress-bar-bg-height="25"
@@ -132,7 +132,7 @@
         </div>
         <script type="text/javascript" src="https://ec3.yesstreaming.net:2730/media/static/js/sc_player/sc_player.js"></script>
 
-
+        <div id="RTWidgetListenerMessages"></div>
 </div>
 </div>
 
@@ -173,13 +173,14 @@
 
     <div class="navigation-content">
         <div class="navigation-logo hover opacity">
-            <a href="#" class="text">ARLO BROWN</a>
+            <a href="#" class="text">Cartoon Villains</a>
          </div>
         <ul class="navigation-ul">
-            <li><a href="index.html" data-text="Home" data-img="images/bg-image-three.webp">Home</a></li>
+            <li><a href="index.html" data-text="Home" data-img="images/home.webp">Home</a></li>
             <li><a href="about.html"  data-text="About"  data-img="images/about.webp">About</a></li>
+            <li><a href="radio.html" data-text="Radio" data-img="images/radio.webp">Radio</a></li>
             <li><a href="requests.html" data-text="Requests"  data-img="images/requests.webp">Requests</a></li>
-            <li><a href="schedule.html"  data-text="Schedule" data-img="images/schedule.webp">Blogs</a></li>
+            <li><a href="schedule.html"  data-text="Schedule" data-img="images/schedule.webp">Schedule</a></li>
             <li><a href="contact.html"  data-text="Contact" data-img="images/contact.webp">Contact</a></li>
         </ul>
         <div class="navigation-close hover about-close opacity">
